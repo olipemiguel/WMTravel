@@ -1,0 +1,31 @@
+<div class="app-home app-home-bg-one app-flex" id="banner">
+  <div class="app-home-main app-flex">
+    <app-header id="app-header"></app-header>
+    <div class="app-content app-flex">
+      <div class="app-content-main app-container app-flex">
+        <div class="app-content-box app-control-box app-flex">
+          <div class="app-main-box control-box-start app-flex" id="0">
+            <h3 class="app-main-box-title">{{home_welcome_title}}</h3>
+            <p class="app-main-box-paragraph">{{home_welcome_paragraph}}</p>
+            <a href="#service" class="app-main-box-link app-flex">{{home_welcome_link}}</a>
+          </div>
+          <div class="app-main-box control-box-center display-none" id="1">
+            <h3 class="app-main-box-title">{{home_mundial_title}}</h3>
+            <p class="app-main-box-paragraph">{{home_mundial_paragraph}}</p>
+            <a href="#service" class="app-main-box-link app-flex">{{home_mundial_link}}</a>
+          </div>
+          <div class="app-main-box control-box-end display-none" id="2">
+            <h3 class="app-main-box-title">{{home_reservations_title}}</h3>
+            <p class="app-main-box-paragraph">{{home_reservations_paragraph}}</p>
+            <a href="#service" class="app-main-box-link app-flex">{{home_reservations_link}}</a>
+          </div>
+        </div>
+        <div class="app-content-box app-flex">
+          <div class="app-nav" (click)="NavHome($event)" accesskey="0" id="active-nav"></div>
+          <div class="app-nav" (click)="NavHome($event)" accesskey="1"></div>
+          <div class="app-nav" (click)="NavHome($event)" accesskey="2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

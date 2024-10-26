@@ -1,0 +1,31 @@
+<div class="app-book app-flex">
+  <div class="app-book-main app-container app-flex">
+    <div class="app-book-wight app-flex">
+      <h3 class="app-title">{{book_title}}</h3>
+      <h3 class="app-title-sub">{{book_title_sub}}</h3>
+    </div>
+    <div class="app-book-box app-flex">
+      <form class="app-form app-flex">
+        <input class="app-date app-date-icon" type="date" id="book-start" name="trip-start" min="{{book_start_date}}" max="{{book_end_date}}" required />
+        <input class="app-date app-date-icon" type="date" id="book-end" name="trip-end" min="{{book_start_date}}" max="{{book_end_date}}" required/>
+        <select class="app-main-select" required>
+          <option class="app-select" value="0" selected disabled>{{book_adult}}</option>
+          <option class="app-select" value="1">1</option>
+          <option class="app-select" value="2">2</option>
+          <option class="app-select" value="3">3</option>
+          <option class="app-select" value="4">4</option>
+          <option class="app-select" value="5">5</option>
+        </select>
+        <select class="app-main-child" required>
+          <option class="app-child" value="0" selected disabled>{{book_children}}</option>
+          <option class="app-child" value="1">1</option>
+          <option class="app-child" value="2">2</option>
+          <option class="app-child" value="3">3</option>
+          <option class="app-child" value="4">4</option>
+          <option class="app-child" value="5">5</option>
+        </select>
+        <button class="app-submit app-flex" (click)="Books($event)">{{book_submit}}</button>
+      </form>
+    </div>
+  </div>
+</div>

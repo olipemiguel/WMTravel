@@ -1,0 +1,22 @@
+h1 {
+  font-size: clamp(3.2rem, 2.5356rem + 1.387vw, 4.2rem);
+}
+h2 {
+  font-size: clamp(2.8rem, 2.4014rem + 0.8322vw, 3.4rem);
+}
+h3 {
+  font-size: clamp(2.4rem, 2.1343rem + 0.5548vw, 2.8rem);
+}
+h4 {
+  font-size: clamp(2.2rem, 2.0671rem + 0.2774vw, 2.4rem);
+}
+h5 {
+  font-size: clamp(2rem, 1.8671rem + 0.2774vw, 2.2rem);
+}
+h6 {
+  font-size: clamp(1.8rem, 1.6671rem + 0.2774vw, 2rem);
+}
+p {
+  font-size: clamp(1.6rem, 1.2468rem + 0.2774vw, 1.9rem);
+}
+/* ? Resetting CSS [> END <] */

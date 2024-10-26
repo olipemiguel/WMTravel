@@ -1,0 +1,17 @@
+<div class="app-header app-flex">
+  <div class="app-center app-flex app-container">
+    <div class="app-logo">
+      <h1 class="app-logo-title">WM</h1>
+    </div>
+    <div class="app-menu app-flex">
+      <a class="app-redirect" href="#home">{{header_home}}</a>
+      <a class="app-redirect" href="#about">{{header_about}}</a>
+      <a class="app-redirect" href="#service">{{header_service}}</a>
+      <a class="app-redirect" href="#contact">{{header_contact}}</a>
+      <div class="app-menu-box app-flex">
+        <div class="app-lang app-lang-brazil" (click)="Lang($event)" id="pt">PT</div>
+        <div class="app-lang app-lang-english" (click)="Lang($event)" id="en">EN</div>
+      </div>
+    </div>
+  </div>
+</div>

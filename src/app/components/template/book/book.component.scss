@@ -1,0 +1,85 @@
+.app-book{
+  width: 100vw;
+  height: calc(100vh - var(--home-height));
+  background-color: var(--bg-book-color);
+  justify-content: center;
+  align-items: center;
+  .app-book-main{
+    flex-direction: row;
+    align-items: center;
+    .app-book-wight{
+      min-width: 220px;
+      width: 20%;
+      height: 70%;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 2px solid var(--yellow);
+      .app-title{
+        color: var(--white);
+        font-size: clamp(1rem, 2.5356rem + 1.3870vw, 1.4rem);
+        font-family: 'Poppins','Inter','Roboto','Roboto Mono',sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .app-title-sub{
+        color: var(--white);
+        font-size: clamp(0.43rem, 2.5356rem + 1.3870vw, 1.2rem);
+        font-family: 'Poppins','Inter','Roboto','Roboto Mono',sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+    .app-book-box{
+      width: 80%;
+      padding: 0 2.5rem;
+      .app-form{
+        gap: 1.3rem;
+        flex-wrap: wrap;
+        .app-date,.app-main-select,.app-main-child{
+          width: 150px;
+          height: 40px;
+          font-size: clamp(0.43rem, 2.5356rem + 1.3870vw, 0.84rem);
+          border: 1px solid var(--white);
+          color: var(--white);
+          -webkit-text-fill-color: var(--white);
+          -webkit-text-fill-color: var(--white);
+          -webkit-text-fill-color: var(--white);
+          padding: 10px;
+          border-radius: 0.1rem;
+          cursor: pointer;
+          transition: all 0.5s linear;
+          &:hover{
+            border: 1px solid var(--blue);
+          }
+        }
+        .app-main-select,.app-main-child{
+          width: 90px;
+          option{
+            text-align: center;
+            background-color: #000000;
+            font-size: clamp(0.43rem, 2.5356rem + 1.3870vw, 0.84rem);
+            border: 1px solid var(--white);
+          }
+        }
+        .app-submit{
+          width: 150px;
+          height: 40px;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--blue);
+          color: var(--white);
+          font-family: 'Poppins','Inter','Roboto','Roboto Mono',sans-serif;
+          text-transform: uppercase;
+          font-weight: 600;
+          border-radius: 0.1rem;
+          cursor: pointer;
+          transition: all 0.5s linear;
+          border: 1px solid transparent;
+          &:hover{
+            background-color: var(--blue-hover);
+          }
+        }
+      }
+    }
+  }
+}

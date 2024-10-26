@@ -1,0 +1,72 @@
+.app-header{
+  width: 100%;
+  height: var(--header-height);
+  justify-content: center;
+  align-items: center;
+  .app-center{
+    align-items: center;
+    justify-content: space-between;
+    .app-logo{
+      width: 10%;
+      .app-logo-title{
+        font-family: 'Poppins','Inter','Roboto','Roboto Mono',sans-serif;
+        font-size: clamp(1.2rem, 2.5356rem + 1.3870vw, 2.2rem);
+        font-weight: 500;
+        color: var(--white);
+      }
+    }
+    .app-menu{
+      gap: 1.3rem;
+      .app-redirect{
+        font-size: clamp(0.76rem, 2.5356rem + 1.3870vw, 1rem);
+        font-weight: 500;
+        color: var(--white);
+        text-transform: uppercase;
+        transition: all 0.7s ease-in-out;
+        position: relative;
+        &:hover{
+          color: var(--yellow);
+          &:before{
+            width: 100%;
+            animation: 3s  alternate redirect_menu;
+          }
+        }
+        &::before{
+          content: "";
+          position: absolute;
+          transform: translateY(-50%);
+          height: 2px;
+          bottom: -6px;
+          background-color: var(--yellow);
+          border-radius: 0.3rem;
+          transition: all 0.7s ease-in-out;
+        }
+      }
+      .app-menu-box{
+        width: 80px;
+        flex-direction: row;
+        height: 100%;
+        border-left: 1px solid var(--yellow);
+        gap: 0.6rem;
+        .app-lang{
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          display: inline-flex;
+          color: transparent;
+          &:first-child{
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+// ! Frame Animations
+@keyframes redirect_menu{
+  from {
+    width: 0%;
+  } to{
+    width: 100%;
+  }
+}

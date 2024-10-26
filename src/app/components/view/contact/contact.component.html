@@ -1,0 +1,49 @@
+<div class="app-contact app-flex">
+  <div class="app-contact-main app-container app-flex">
+    <div class="app-main-info app-flex">
+      <h2 class="app-main-info-title">{{contact_header_title}}</h2>
+      <p class="app-main-info-sub-title">{{contact_header_title_sub}}</p>
+      <div class="app-main-info-animation app-flex">
+        <div class="app-main-info-animation-box"></div>
+      </div>
+      <p class="app-main-info-paragraph">{{contact_header_paragraph}}</p>
+    </div>
+    <div class="app-main-box app-flex">
+      <form class="app-main-box-form">
+        <input class="app-main-form" type="text" placeholder="{{contact_form_name}}" required>
+        <input class="app-main-form" type="email" placeholder="{{contact_form_email}}" required>
+        <textarea class="app-main-form textarea-form" name="textarea" id="textarea" cols="30" rows="10" required>{{contact_form_subject}}</textarea>
+        <button class="app-main-form-button" (click)="Contact($event)">{{contact_form_submit}}</button>
+      </form>
+      <div class="app-main-box-info">
+        <div class="app-main-box-info-summary app-flex">
+          <div class="app-main-box-info-summary-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="app-main-box-info-summary-text">
+            <p class="app-main-box-info-summary-paragraph">{{contact_form_info_address}}</p>
+            <p class="app-main-box-info-summary-paragraph-sub">{{contact_form_data_address}}</p>
+          </div>
+        </div>
+        <div class="app-main-box-info-summary app-flex">
+          <div class="app-main-box-info-summary-icon">
+            <i class="fas fa-phone-volume"></i>
+          </div>
+          <div class="app-main-box-info-summary-text">
+            <p class="app-main-box-info-summary-paragraph">{{contact_form_info_mobile}}</p>
+            <p class="app-main-box-info-summary-paragraph-sub">{{contact_form_data_mobile}}</p>
+          </div>
+        </div>
+        <div class="app-main-box-info-summary app-flex">
+          <div class="app-main-box-info-summary-icon">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <div class="app-main-box-info-summary-text">
+            <p class="app-main-box-info-summary-paragraph">{{contact_form_info_email}}</p>
+            <p class="app-main-box-info-summary-paragraph-sub">{{contact_form_data_email}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

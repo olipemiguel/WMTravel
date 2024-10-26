@@ -1,0 +1,206 @@
+{
+  "pt":{
+    "header":{
+      "home": "Inicio",
+      "about": "Sobre",
+      "service": "Serviços",
+      "contact": "Contato"
+    },
+    "home":{
+      "welcome": {
+        "title": "Bem-vindo ao nosso WM",
+        "paragraph": "Uma agência de turismo organiza e vende pacotes de viagens, oferecendo serviços como reservas, roteiros personalizados e suporte ao cliente, garantindo uma experiência prática e segura.",
+        "link": "Saiba mais"
+      },
+      "mundial": {
+        "title": "Pacotes Mundiais",
+        "paragraph": "Nossos pacotes mundiais oferecem uma variedade de lugares para voar, além de promover a comunidade internacional e a diversidade cultural.",
+        "link": "Saiba mais"
+      },
+      "reservations": {
+        "title": "Aproveite o passeio conosco",
+        "paragraph": "Utilize nossos sistemas de reservas para encontrar pacotes de viagens personalizados, com descontos exclusivos e promoções especiais.",
+        "link": "Saiba mais"
+      }
+    },
+    "book":{
+      "title": "Reserva de Pacote",
+      "title_sub": "Para voo e hotel",
+      "adults": "Adultos:",
+      "children": "Crianças:",
+      "submit": "Reservar"
+    },
+    "about":{
+      "title": "Sobre o WM",
+      "paragraph": "Descubra destinos incríveis com nossa agência e viaje sem preocupações!",
+      "info": "Na nossa agência de turismo, cada viagem é uma experiência única, planejada especialmente para você. Oferecemos pacotes personalizados que atendem a todos os perfis de viajantes, desde quem busca aventura até quem deseja relaxar em destinos paradisíacos. Cuidamos de cada detalhe da sua viagem, garantindo conforto, segurança e praticidade, para que você possa aproveitar ao máximo cada momento. Com parcerias estratégicas ao redor do mundo, oferecemos os melhores preços e serviços exclusivos. Nossa equipe de especialistas está pronta para transformar seus sonhos de viagem em realidade, seja explorando culturas fascinantes ou relaxando em paisagens deslumbrantes. Viver novas experiências e criar memórias inesquecíveis é o nosso compromisso com você. Viaje com quem entende de turismo!",
+      "link": "Saiba mais"
+    },
+    "service":{
+      "header":{
+        "title": "Por que me escolher ?",
+        "title_sub": "Nós fornecemos serviço!",
+        "paragraph": "Oferecemos viagens inesquecíveis com pacotes personalizados, destinos únicos e suporte completo para sua melhor experiência."
+      },
+      "box":{
+        "treatment":{
+          "title": "Turísticos",
+          "paragraph": "Operadores turísticos planejam viagens personalizadas, garantindo conforto."
+        },
+        "resort":{
+          "title": "Resorts",
+          "paragraph": "Resorts oferecem luxo, conforto e experiências únicas para relaxamento e lazer."
+        },
+        "wifi":{
+          "title": "Wi-Fi",
+          "paragraph": "Oferecemos conforto, conectividade e diversão para toda família."
+        },
+        "support":{
+          "title": "Suporte ao Cliente",
+          "paragraph": "Suporte eficiente garante satisfação, confiança e soluções rápidas aos clientes."
+        },
+        "motorist":{
+          "title": "Motoristas",
+          "paragraph": "Profissionais garantem segurança, eficiência e conforto em cada viagem realizada."
+        },
+        "cruises":{
+          "title": "Cruzeiros",
+          "paragraph": "Oferecem experiências únicas, com luxo, entretenimento e destinos inesquecíveis."
+        },
+        "parking":{
+          "title": "Estacionamento",
+          "paragraph": "Estacionamento seguro e acessível facilita o acesso e tranquilidade dos motoristas."
+        },
+        "flight":{
+          "title": "Voos corporativos",
+          "paragraph": "Proporcionam agilidade, conforto e exclusividade para viagens de negócios."
+        }
+      }
+    },
+    "contact": {
+      "header":{
+        "title": "Contato",
+        "title_sub": "Estamos aqui para ajudar!",
+        "paragraph": "Descubra soluções inovadoras que impulsionam seu negócio e atendem às suas necessidades específicas com excelência."
+      },
+      "form":{
+        "name": "Nome:",
+        "email": "Email:",
+        "subject": "Assunto:",
+        "submit": "Enviar"
+      },
+      "info":{
+        "address": "Endereço residencial",
+        "mobile": "Número de telemóvel",
+        "email": "Endereço de email"
+      },
+      "data":{
+        "address": "Redcross Way, London SE1 9HR",
+        "mobile": "+44 7551 782944",
+        "email": "wmservicetravel@gmail.com"
+      }
+    }
+  },
+  "en":{
+    "header":{
+      "home": "Home",
+      "about": "About",
+      "service": "Service",
+      "contact": "Contact"
+    },
+    "home":{
+      "welcome": {
+        "title": "Welcome to our WM",
+        "paragraph": "A travel agency organizes and sells travel packages, offering services such as reservations, personalized itineraries and customer support, ensuring a practical and safe experience.",
+        "link": "Learn more"
+      },
+      "mundial": {
+        "title": "World Packages",
+        "paragraph": "Our worldwide packages offer a variety of places to fly, while also promoting international community and cultural diversity.",
+        "link": "Learn more"
+      },
+      "reservations": {
+        "title": "Enjoy the tour with us",
+        "paragraph": "Use our booking systems to find personalized travel packages, with exclusive discounts and special promotions.",
+        "link": "Learn more"
+      }
+    },
+    "book":{
+      "title": "Package Booking",
+      "title_sub": "For flight and hotel",
+      "adults": "Adults:",
+      "children": "Children:",
+      "submit": "Reserve"
+    },
+    "about":{
+      "title": "About WM",
+      "paragraph": "Discover incredible destinations with our agency and travel without worries!",
+      "info": "At our travel agency, every trip is a unique experience, planned especially for you. We offer customized packages that meet all types of travelers, from those seeking adventure to those who want to relax in paradisiacal destinations. We take care of every detail of your trip, ensuring comfort, safety and convenience, so that you can make the most of every moment. With strategic partnerships around the world, we offer the best prices and exclusive services. Our team of experts is ready to make your travel dreams come true, whether exploring fascinating cultures or relaxing in stunning landscapes. Living new experiences and creating unforgettable memories is our commitment to you. Travel with those who understand tourism!",
+      "link": "Learn more"
+    },
+    "service":{
+      "header":{
+        "title": "Why choose me?",
+        "title_sub": "We provide service!",
+        "paragraph": "We offer unforgettable trips with personalized packages, unique destinations and complete support for your best experience."
+      },
+      "box":{
+        "treatment":{
+          "title": "Tourist",
+          "paragraph": "Tour operators plan personalized trips, ensuring comfort."
+        },
+        "resort":{
+          "title": "Resorts",
+          "paragraph": "Resorts offer luxury, comfort and unique experiences for relaxation and leisure."
+        },
+        "wifi":{
+          "title": "Wi-Fi",
+          "paragraph": "We offer comfort, connectivity and fun for the whole family."
+        },
+        "support":{
+          "title": "Customer Support",
+          "paragraph": "Efficient support ensures customer satisfaction, trust and quick solutions."
+        },
+        "motorist":{
+          "title": "Motorists",
+          "paragraph": "Professionals guarantee safety, efficiency and comfort on every trip."
+        },
+        "cruises":{
+          "title": "Cruising",
+          "paragraph": "They offer unique experiences luxury, entertainment and unforgettable."
+        },
+        "parking":{
+          "title": "Parking",
+          "paragraph": "Safe and accessible parking provides easy access and peace of mind for drivers."
+        },
+        "flight":{
+          "title": "Corporate flights",
+          "paragraph": "They provide agility, comfort and exclusivity for business trips."
+        }
+      }
+    },
+    "contact": {
+      "header":{
+        "title": "Contact",
+        "title_sub": "We are here to help!",
+        "paragraph": "Discover innovative solutions that boost your business and meet your specific needs with excellence."
+      },
+      "form":{
+        "name": "Name:",
+        "email": "E-mail:",
+        "subject": "Subject:",
+        "submit": "Send"
+      },
+      "info":{
+        "address": "Residential Address",
+        "mobile": "Mobile Number",
+        "email": "Email address"
+      },
+      "data":{
+        "address": "Redcross Way, London SE1 9HR",
+        "mobile": "+44 7551 782944",
+        "email": "wmservicetravel@gmail.com"
+      }
+    }
+  }
+}
